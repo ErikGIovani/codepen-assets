@@ -75,7 +75,7 @@ iv>
 ---
 
 <div align="center">
-    <p>To use file access use <b>https://usuario.github.io/codepen-assets/ruta-del-archivo-en-github.css</b></p>
+    <p>To use file access use <b>https://user.github.io/codepen-assets/ruta-del-archivo-en-github.css</b></p>
 </div>
 
 ---
