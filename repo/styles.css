@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(115deg, #fffffff7 0%, #fffffff7 100%),
+    url("./codepen-logo.png");
+  background-size: 150px;
+  background-position: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-family: "Inter", sans-serif;
+      font-weight: medium;
+      font-size: 64px;
+    }
+  }
+
+  .anchord {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+
+    svg {
+      width: 26px;
+      height: 24px;
+    }
+
+    &:focus,
+    &:hover {
+      outline: 4px dotted #000;
+    }
+  }
+}
